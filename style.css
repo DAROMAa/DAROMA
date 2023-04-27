@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#6b5232;
+    --main-color:#6b5138;
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255, .3);
@@ -67,6 +67,7 @@
     color: #fff;
     background: var(--main-color);
     cursor: pointer;
+    border-radius: 2px;
  }
 
  .btn:hover{
@@ -148,6 +149,7 @@
     font-size: 2.2rem;
     margin-right: 1.5rem;
     color: var(--black);
+    border-radius: 2px;
 }
 
 .header .search-form label:hover{

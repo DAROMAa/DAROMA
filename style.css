@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#6b5138;
+    --main-color:#705638;
     --black:#13131a;
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255, .3);
@@ -39,7 +39,7 @@
  }
 
  body{
-    background: #4b381c;
+    background: #85756b;
  }
 
  section{
@@ -68,6 +68,7 @@
     background: var(--main-color);
     cursor: pointer;
     border-radius: 3rem;
+    
  }
 
  .btn:hover{
@@ -75,7 +76,7 @@
  }
 
  .header{
-    background: var(--bg);
+    background: #e7ddd5;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,6 +103,7 @@
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
+    
 }
 
 .header .icons div{
@@ -149,7 +151,6 @@
     font-size: 2.2rem;
     margin-right: 1.5rem;
     color: var(--black);
-    border-radius: 3rem;
 }
 
 .header .search-form label:hover{
@@ -227,7 +228,6 @@
         font-size: 6rem;
         text-transform: uppercase;
         color: #fff;
-        padding-top: 50px;
     }
 
     .home .content p{

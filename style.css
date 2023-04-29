@@ -16,7 +16,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
-      border-radius: 20px;
+    
  }
 
  html{
@@ -244,14 +244,17 @@
         align-items: center;
         background:var(--black);
         flex-wrap: wrap;
+        border-radius: 22px;
     }
 
     .sobre .row .image{
         flex: 1 1 45rem;
+        
     }
 
     .sobre .row .image img{
         width: 100%;
+        border-radius: 20px;
     }
 
     .sobre .row .content{

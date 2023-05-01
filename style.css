@@ -56,7 +56,7 @@
 }
 
 .heading span{
-    color: var(--bg);
+    color:#fff;
     text-transform: uppercase;
 }
 
